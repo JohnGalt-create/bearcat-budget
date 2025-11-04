@@ -2,8 +2,7 @@
   "name": "bearcat-budget",
   "version": "1.0.0",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -17,12 +16,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.4",
-    "react-native-web": "0.19.22",
+    "react-native-web": "0.19.20",
     "firebase": "^11.0.1",
     "openai": "^4.33.0"
   },
-  "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "babel-preset-expo": "^9.2.0"
-  }
+  "devDependencies": {},
+  "overrides": {
+    "react-native-web": "0.19.20"
+  },
+  "main": "node_modules/expo/AppEntry.js"
 }
