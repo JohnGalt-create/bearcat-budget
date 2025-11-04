@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start --web",
-"build": "expo export --output-dir web-build",
+    "build": "expo export --output-dir web-build",
     "lint": "eslint ."
   },
   "dependencies": {
